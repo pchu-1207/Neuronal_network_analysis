@@ -24,7 +24,7 @@ What does this code do?
 -plots raster heatmap of activity 
 
 
-![Heatmap of deconvolved df/f activity over time](Figure_2.png)
+![Heatmap of deconvolved df/f activity over time](Figure_1.png)
 
 
 -Requires inputs in spreadsheet format (.csv) with rows representing cells and columns representing time (movie frames). easily obtainable without programming experience from 2p calcium imaging movies analyzed with ezcalcium (https://porteralab.dgsom.ucla.edu/pages/matlab). 

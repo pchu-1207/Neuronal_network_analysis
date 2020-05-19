@@ -13,7 +13,7 @@ What does this code do?
 -plots t-SNE 
 -plots raster heatmap of activity 
 
-![Heatmap of deconvolved df/f activity over time](heatmap.png)
+![Heatmap of deconvolved df/f activity over time](figure_2.png)
 
 
 -Requires inputs in spreadsheet format (.csv) with rows representing cells and columns representing time (movie frames). easily obtainable without programming experience from 2p calcium imaging movies analyzed with ezcalcium (https://porteralab.dgsom.ucla.edu/pages/matlab). 

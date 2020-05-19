@@ -12,7 +12,7 @@ Instructions:
 
 -network_plot_plotly_interactive plots a sliding bar that scales the correlation coefficient between the cells in the network. Can be run in isolation. Useful for visualizing subnetworks.  
 
-![Neuronal network analysis of 2-photon imaging P7 mouse expressing GCaMP-6s](test/test.gif)
+![Neuronal network analysis of 2-photon imaging P7 mouse expressing GCaMP-6s](test.gif)
 
 
 -network_plot_plotly_activityflow plots activity over time using a sliding bar. also useful for visualizing subnetworks and activity flow. requires calcium_imaging_module_run be run first. 

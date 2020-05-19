@@ -2,16 +2,27 @@
 Scripts to analyze neuronal network activity in Python based on Duan, Che, Chu et al., 2019 Neuron (https://www.sciencedirect.com/science/article/pii/S0896627319308566?via%3Dihub). Strategy to detect neuronal assemblies used here was developed in the Cossart Lab (http://www.inmed.fr/en/developpement-des-microcircuits-gabaergiques-corticaux-en)
 
 What does this code do?
+
 -Detects activity clusters using K-means cluster analysis. validates using silhouette analysis and bootstrap reshuffling for statistical thresholds. 
+
 - calculates activity frequency over time
+
 -calculates sychronized calcium events and tests statistically using bootstrap reshuffling (1000x) using 95% threshold of empirical cumulative distribution (used as threshold for all bootstrap reshuffling tests)
+
 -computes contribution of each cluster to statistically determined synchronized calcium events using bootstrap reshuffling
+
 -computes the statistical signficance of spatial clustering using silhouette analysis and bootstrap reshuffling
+
 -optimizes K-means detected clusters using bootstrap reshuffling to exclude detected neurons with low silhouette values relative to boostrap reshuffled
+
 -plots spatial data and labels based on activity frequency
+
 -plots spatial data with k-mean clusters analysis labels
+
 -plots t-SNE 
+
 -plots raster heatmap of activity 
+
 
 ![Heatmap of deconvolved df/f activity over time](Figure_2.png)
 

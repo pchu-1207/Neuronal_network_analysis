@@ -38,7 +38,8 @@ Instructions:
 -network_plot_plotly_interactive plots a sliding bar that scales the correlation coefficient between the cells in the network. Can be run in isolation. Useful for visualizing subnetworks.  
 
 ![Neuronal network analysis of 2-photon imaging P7 mouse expressing GCaMP-6s](test.gif)
-Fig2: Spatially faithful plot of 2-photon imaged GCaMP6s labeled interneurons in P7 mouse somatosensory cortex. Size of circles represent number of connections. Color of circles represent the k-means cluster. Color of lines represent correlation coefficient of activity between pairs of neurons. gif displays varying correlation coefficient thresholds.
+
+Fig2: Spatially accurate plot of 2-photon imaged GCaMP6s labeled interneurons in P7 mouse somatosensory cortex. Size of circles represent number of connections. Color of circles represent the k-means cluster. Color of lines represent correlation coefficient of activity between pairs of neurons. gif displays varying correlation coefficient thresholds.
 
 -network_plot_plotly_activityflow plots activity over time using a sliding bar. also useful for visualizing subnetworks and activity flow. requires calcium_imaging_module_run be run first. 
 

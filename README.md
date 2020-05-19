@@ -3,9 +3,10 @@ Scripts to analyze neuronal network activity in Python based on Duan, Che, Chu e
 
 What does this code do?
 
+
 -Detects activity clusters using K-means cluster analysis. validates using silhouette analysis and bootstrap reshuffling for statistical thresholds. 
 
-- calculates activity frequency over time
+-calculates activity frequency over time
 
 -calculates sychronized calcium events and tests statistically using bootstrap reshuffling (1000x) using 95% threshold of empirical cumulative distribution (used as threshold for all bootstrap reshuffling tests)
 

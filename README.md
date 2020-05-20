@@ -1,4 +1,4 @@
-# Neuronal_network_analysis_1.0
+# Neuronal_network_analysis_0.1
 Scripts to analyze neuronal network activity in Python based on Duan, Che, Chu et al., 2019 Neuron (https://www.sciencedirect.com/science/article/pii/S0896627319308566?via%3Dihub). Strategy to detect neuronal assemblies used here was developed in the Cossart Lab (http://www.inmed.fr/en/developpement-des-microcircuits-gabaergiques-corticaux-en)
 
 What does this code do?
